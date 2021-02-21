@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "@project.build.finalName@"
+
+logging:
+  level:
+    root: INFO

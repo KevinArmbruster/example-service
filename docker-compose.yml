@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  baseservice:
+    image: "whatsmydockeridthatsmydockerid/repository:baseservice-local-build"
+    ports:
+      - "8080:8080"
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 1G
+    environment:
+      - "TZ=Europe/Berlin"
+    logging:
+      driver: syslog
+      options:
+        syslog-address: "tcp://localhost:5000"
