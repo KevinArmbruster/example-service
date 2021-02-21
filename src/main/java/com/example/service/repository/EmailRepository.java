@@ -1,6 +1,6 @@
-package com.example.baseservice.repository;
+package com.example.service.repository;
 
-import com.example.baseservice.model.Email;
+import com.example.service.model.Email;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

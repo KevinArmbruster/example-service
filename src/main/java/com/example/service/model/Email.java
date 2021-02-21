@@ -1,4 +1,4 @@
-package com.example.baseservice.model;
+package com.example.service.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

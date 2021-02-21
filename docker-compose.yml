@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  baseservice:
-    image: "whatsmydockeridthatsmydockerid/repository:baseservice-local-build"
+  example-service:
+    image: "whatsmydockeridthatsmydockerid/repository:example-service-local-build"
     ports:
       - "8080:8080"
     deploy:

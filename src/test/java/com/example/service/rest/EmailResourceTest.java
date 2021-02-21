@@ -1,7 +1,7 @@
-package com.example.baseservice.rest;
+package com.example.service.rest;
 
-import com.example.baseservice.exception.NoEmailFoundException;
-import com.example.baseservice.model.Email;
+import com.example.service.exception.NoEmailFoundException;
+import com.example.service.model.Email;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

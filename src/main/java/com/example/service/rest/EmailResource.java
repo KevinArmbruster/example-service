@@ -1,8 +1,8 @@
-package com.example.baseservice.rest;
+package com.example.service.rest;
 
-import com.example.baseservice.exception.NoEmailFoundException;
-import com.example.baseservice.model.Email;
-import com.example.baseservice.service.EmailService;
+import com.example.service.exception.NoEmailFoundException;
+import com.example.service.model.Email;
+import com.example.service.service.EmailService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
